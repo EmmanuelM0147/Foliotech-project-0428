@@ -11,6 +11,7 @@ import {
 } from 'lucide-react';
 import { FAQSection } from '../components/FAQSection';
 import { ExamPreparation } from '../components/ExamPreparation';
+import Carousel from '../components/Carousel/Carousel.tsx';
 
 // Animation variants
 const fadeIn = {
@@ -255,13 +256,18 @@ export default function About() {
               ))}
             </motion.ul>
           </div>
-          <div className="lg:col-span-5">
-            <motion.img
-              variants={fadeIn}
-              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3"
-              alt="Students learning at FolioTech Institute"
-              className="rounded-lg shadow-xl w-full h-auto"
-              loading="lazy"
+          <div className="lg:col-span-5" >
+            <Carousel
+              images={[
+                "https://res.cloudinary.com/dtzv2ckwm/image/upload/v1746302665/Plumbling_zodckw.jpg",
+                "https://res.cloudinary.com/dtzv2ckwm/image/upload/v1746299927/Computer_h9ofeq.jpg",
+                "https://res.cloudinary.com/dtzv2ckwm/image/upload/v1746302434/Elect_wg04ur.jpg",
+                "https://res.cloudinary.com/dtzv2ckwm/image/upload/v1746302239/Tailoring_qwee1e.jpg",
+                "https://res.cloudinary.com/dtzv2ckwm/image/upload/v1746302189/Welding_b1y9ue.jpg",
+                "https://res.cloudinary.com/dtzv2ckwm/image/upload/v1746302162/Knitting_udffuy.jpg",
+                "https://res.cloudinary.com/dtzv2ckwm/image/upload/v1746302102/Fur_bldbyp.jpg",
+                "https://res.cloudinary.com/dtzv2ckwm/image/upload/v1746302032/Catering_d0efnz.jpg"
+              ]}
             />
           </div>
         </div>
