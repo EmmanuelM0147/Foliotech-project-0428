@@ -6,15 +6,15 @@ const testimonials = [
     id: 1,
     quote: "The hands-on learning approach at FolioTech Institute prepared me for real-world challenges in software development.",
     author: "Aisha Williams",
-    role: "Software Engineer at Google",
+    role: "Software Engineer",
     image: "https://images.unsplash.com/photo-1589156280159-27698a70f29e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80"
   },
   {
     id: 2,
     quote: "The faculty's industry experience and mentorship were invaluable in shaping my career in data science.",
-    author: "Marcus Johnson",
-    role: "Data Scientist at Microsoft",
-    image: "https://images.unsplash.com/photo-1620000617482-821324eb9a14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    author: "Adebayo Johnson",
+    role: "Data Scientist",
+    image: "https://images.unsplash.com/photo-1507152832244-10d45c7eda57?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
   }
 ];
 
