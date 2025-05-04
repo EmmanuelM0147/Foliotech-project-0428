@@ -109,25 +109,26 @@ export function ExamPreparation() {
   return (
     <section 
       ref={ref} 
-      className="py-16 bg-[--primary-bg]"
+      className="py-16 bg-[#1A202C] text-white"
       aria-labelledby="exam-preparation-title"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6 }}          className="text-center mb-12"
+          transition={{ duration: 0.6 }}
+          className="text-center mb-12"
         >
           <h2 
             id="exam-preparation-title" 
-            className="text-3xl font-bold text-[--text-primary] sm:text-4xl mb-4"
+            className="text-3xl font-bold text-white sm:text-4xl mb-4"
           >
             Examination Preparation
-          </h2><p className="text-xl text-[--text-secondary] max-w-3xl mx-auto">
+          </h2>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             The Centre prepares students intensively for Nigerian examinations
           </p>
         </motion.div>
-
 
         {/* Exam Cards Grid */}
         <motion.div
@@ -154,7 +155,6 @@ export function ExamPreparation() {
             );
           })}
         </motion.div>
-
 
         {/* Testimonials Section */}
         <motion.div
